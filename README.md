@@ -13,5 +13,15 @@ In this project, python is used to explore data related to bikeshare systems for
   1.bikeshare_2.py
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+1. Richard Kalehoff(Udacity mentor)
+
+ * https://github.com/richardkalehoff
+
+2. Juno Lee (Udacity Mentor)
+
+ * https://github.com/junolee 
+
+3. commit message style reference given below :
+
+  * https://udacity.github.io/git-styleguide/
 
