@@ -17,7 +17,7 @@ def get_filters():
     print('Hello! Let\'s explore some US bikeshare data!')
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     while True:
-        city = input("Which city do you want to inquiry(Ex:chicago, new york city, washington)?")
+        city = input("Which city do you want to explore(Ex:chicago, new york city, washington)?")
         city = city.lower()
         if city in ['chicago', 'new york city', 'washington']:
             break
@@ -25,7 +25,7 @@ def get_filters():
             print("Error city!. Please try again!(Ex:chicago, new york city, washington)")
     # get user input for month (all, january, february, ... , june)
     while True:    
-        month = input("Which months do you want to inquiry(Ex:january, february, march, april, may, june, all)?")
+        month = input("Which months do you want to explore(Ex:january, february, march, april, may, june, all)?")
         month = month.lower()
         if month in ['january', 'february', 'march', 'april', 'may', 'june', 'all']:
             break
@@ -33,7 +33,7 @@ def get_filters():
             print("Error month!. Please try again!(Ex:january, february, march, april, may, june, all")
     # get user input for day of week (all, monday, tuesday, ... sunday)
     while True:
-        day = input("Which day of week do you want to inquiry(Ex:monday, tuesday, wednesday, thursday, friday, saturday, sunday, all)")
+        day = input("Which day of week do you want to explore(Ex:monday, tuesday, wednesday, thursday, friday, saturday, sunday, all)")
         day = day.lower()
         if day in ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all']:
             break
