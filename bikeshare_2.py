@@ -22,7 +22,7 @@ def get_filters():
         if city in ['chicago', 'new york city', 'washington']:
             break
         else:
-            print("Error city!. Please try again!(Ex:chicago, new york city, washington)")
+            print("Oops!. Please try again!(Ex:chicago, new york city, washington)")
     # get user input for month (all, january, february, ... , june)
     while True:    
         month = input("Which months do you want to explore(Ex:january, february, march, april, may, june, all)?")
@@ -30,7 +30,7 @@ def get_filters():
         if month in ['january', 'february', 'march', 'april', 'may', 'june', 'all']:
             break
         else:
-            print("Error month!. Please try again!(Ex:january, february, march, april, may, june, all")
+            print("Oops!. Please try again!(Ex:january, february, march, april, may, june, all")
     # get user input for day of week (all, monday, tuesday, ... sunday)
     while True:
         day = input("Which day of week do you want to explore(Ex:monday, tuesday, wednesday, thursday, friday, saturday, sunday, all)")
@@ -38,7 +38,7 @@ def get_filters():
         if day in ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all']:
             break
         else:
-            print("Error day!. Please try again!(Ex:monday, tuesday, wednesday, thursday, friday, saturday, sunday, all")
+            print("Oops!. Please try again!(Ex:monday, tuesday, wednesday, thursday, friday, saturday, sunday, all")
     print('-'*40)
     return city, month, day
 
