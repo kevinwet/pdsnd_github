@@ -1,6 +1,7 @@
 import time
 import pandas as pd
 import numpy as np
+import datetime as dt
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
@@ -22,8 +23,16 @@ def get_filters():
         if city in ['chicago', 'new york city', 'washington']:
             break
         else:
+
             print("Oops!. Please try again!(Ex:chicago, new york city, washington)")
+    # get user input for month (january, february, ... , june, all)
+
+            print("Error city!. Please try again!(Ex:chicago, new york city, washington)")
     # get user input for month (all, january, february, ... , june)
+
+            print("Error city!. Please try again!(Ex:chicago, new york city, washington)")
+    # get user input for month (january, february, ... , june, all)
+
     while True:    
         month = input("Which months do you want to explore(Ex:january, february, march, april, may, june, all)?")
         month = month.lower()
