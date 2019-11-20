@@ -23,7 +23,7 @@ def get_filters():
             break
         else:
             print("Error city!. Please try again!(Ex:chicago, new york city, washington)")
-    # get user input for month (all, january, february, ... , june)
+    # get user input for month (january, february, ... , june, all)
     while True:    
         month = input("Which months do you want to inquiry(Ex:january, february, march, april, may, june, all)?")
         month = month.lower()
